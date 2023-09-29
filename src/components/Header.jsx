@@ -18,8 +18,8 @@ function Header () {
         </h1> */}
         {/* <br/> */}  
 
-        <Navbar bg="dark" variant="dark" expand="sm">
-        {/* <Navbar fixedTop style={{backgroundSize: "0", backgroundColor: "#05E4FA"}}> */}
+        {/* <Navbar bg="dark" variant="dark" expand="sm"> */}
+        <Navbar fixedTop style={{backgroundSize: "0", backgroundColor: "#0B5345"}}>
           <Container fluid>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">

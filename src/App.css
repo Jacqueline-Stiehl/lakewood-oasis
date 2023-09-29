@@ -7,7 +7,7 @@
 
 .head-text {
   position: relative;
-  color: white;
+  color: #0b5345;
 }
 
 .center-text {
@@ -16,18 +16,51 @@
   left: 50%;
   transform: translate(-50%, -50%);
   /* font-family: "Rouge Script", cursive; */
+  font-family: "Ceviche One", cursive;
+  font-family: "Source Code Pro", monospace;
 }
 
 .large-font {
   font-size: 100px;
 }
 
-.small-font {
+#small-font {
   /* font-family: "Kaushan Script", cursive; */
   /* font-family: "Dancing Script", cursive; */
   /* font-family: "Fuggles", cursive; */
   /* font-family: "Croissant One", cursive; */
   /* font-family: "Bebas Neue", sans-serif; */
+}
+
+.carousel {
+  width: 900px;
+  height: 500px;
+  margin: auto;
+  padding-top: 75px;
+}
+
+/* below to are from here: https://stackoverflow.com/questions/20207487/bootstrap-3-default-carousel-how-to-move-indicators-down-and-outside-of-slide-c */
+.carousel-indicators {
+  bottom: -175px;
+}
+
+.carousel-control-prev {
+  bottom: -160%;
+}
+
+.carousel-control-next {
+  bottom: -160%;
+}
+
+.d-block {
+  border-radius: 8px;
+}
+
+@media (max-width: 900px) {
+  .carousel {
+    width: auto;
+    height: auto;
+  }
 }
 
 .logo {

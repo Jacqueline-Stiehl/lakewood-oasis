@@ -1,8 +1,16 @@
 import '../../../src/App.css'
-
+// import { StyleSheet, Font } from "@react-pdf/renderer"
 // import { Button } from "@chakra-ui/react";
 
 import Background from "../../assets/images/49.jpg"
+
+// Font.register({family: "Ceviche One", src: source})
+
+// const styles = StyleSheet.create ({
+//     title: {
+//         fontFamily: "Ceviche One"
+//     }
+// })
 
 const Home = () => {
 
@@ -10,7 +18,7 @@ const Home = () => {
     <div className="home-container head-text">
       <div className="home-header head-image">
         <h1 className="header-text center-text" style={{ position: "fixed" }}>
-        <span className="small-font">Welcome to </span><br/>
+        <span id="small-font">Welcome to </span><br/>
         <span className="large-font">Lakewood Oasis </span>  </h1>
          
       </div>
