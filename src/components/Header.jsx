@@ -7,20 +7,21 @@ function Header () {
   const currentPath = location.pathname;
   
     return (
-      <header className="header">
-        {/* <h1>
-          <span className="dot" id="red"></span> THE 
-          <span className="dot" id="yellow"></span> ONE 
-          <span className="dot" id="blue"></span> WHERE 
-          <span className="dot" id="red"></span> DANIKA 
-          <span className="dot" id="yellow"></span> GRADUATES 
-          <span className="dot" id="blue"></span>
-        </h1> */}
-        {/* <br/> */}  
+      <header className="header">  
 
         {/* <Navbar bg="dark" variant="dark" expand="sm"> */}
-        <Navbar fixedTop style={{backgroundSize: "0", backgroundColor: "#0B5345"}}>
+        <Navbar fixedTop style={{backgroundSize: "0", backgroundColor: "#0E6251"}}>
           <Container fluid>
+          <Navbar.Brand className="me-auto" href="/">
+            {/* <img
+              src="/favicon.png"
+              alt="Logo"
+              width="60"
+              height="60"
+              className="d-inline-block align-top"
+            /> */}
+            <span className="logo-text">Lakewood Oasis</span>
+          </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
                <Nav className="me-auto">
@@ -29,7 +30,7 @@ function Header () {
                <Nav>
                 <>
                 {currentPath !== "/home" && (
-                    <Nav.Link href="/home" className="navlink2">Home</Nav.Link>
+                    <Nav.Link href="/home"  className="navlink2">Home</Nav.Link>
                   )}
                   {currentPath !== "/photos" && (
                     <Nav.Link href="/photos" className="navlink3">Photos</Nav.Link>

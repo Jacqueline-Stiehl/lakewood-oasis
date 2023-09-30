@@ -5,6 +5,13 @@
   text-align: center;
 } */
 
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  width: 100%;
+}
+
 .head-text {
   position: relative;
   color: #0b5345;
@@ -17,7 +24,7 @@
   transform: translate(-50%, -50%);
   /* font-family: "Rouge Script", cursive; */
   font-family: "Ceviche One", cursive;
-  font-family: "Source Code Pro", monospace;
+  /* font-family: "Source Code Pro", monospace; */
 }
 
 .large-font {
@@ -30,6 +37,49 @@
   /* font-family: "Fuggles", cursive; */
   /* font-family: "Croissant One", cursive; */
   /* font-family: "Bebas Neue", sans-serif; */
+}
+
+.header .navlink2 {
+  color: #3498db;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-size: 20px;
+  font-family: "Ceviche One", cursive;
+  /* margin-right: 16px; */
+  /* margin-left: -30%; */
+}
+
+.header .navlink3 {
+  color: #3498db;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  /* margin-left: -30%; */
+  font-size: 20px;
+  font-family: "Ceviche One", cursive;
+}
+
+.header .navlink4 {
+  color: #3498db;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-size: 20px;
+  font-family: "Ceviche One", cursive;
+  /* margin-left: 3%; */
+}
+
+.header .navlink5 {
+  color: #3498db;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  /* margin-left: 3%; */
+  font-size: 20px;
+  font-family: "Ceviche One", cursive;
+}
+
+.logo-text {
+  color: #3498db;
+  font-family: "Ceviche One", cursive;
+  font-size: 30px;
 }
 
 .carousel {
@@ -63,6 +113,95 @@
   }
 }
 
+.ReactModal__Overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
+}
+
+.ReactModal__Content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 80%;
+  position: relative;
+  z-index: 1001;
+  top: 20%;
+}
+
+/* .ReactModal__Content {
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 80%;
+  position: relative;
+  z-index: 1001;
+  top: 20%;
+} */
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  color: #333;
+}
+
+.close-button:hover {
+  color: #3498db;
+}
+
+.footer {
+  margin-top: auto;
+  color: #0e6251;
+  text-align: center;
+  padding: 0;
+  position: relative;
+  bottom: 0%;
+  width: 100%;
+  background-color: #0e6251 !important;
+}
+
+/* in footer: */
+/* .quote-container p {
+  font-style: italic;
+  margin-top: 5px;
+} */
+
+.footer-content .nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+.footer-content a {
+  /* color: rgba(0, 0, 0, 0.18); */
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-weight: bold;
+}
+
+/* .footer-content a:hover {
+  color: yellow;
+} */
+
+/* .footer-info {
+  font-size: 12px;
+} */
+
+.footer .footer-content {
+  /* background-color: #85ae5a !important; */
+  flex-grow: 1;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -91,9 +230,9 @@
   }
 }
 
-.card {
+/* .card {
   padding: 2em;
-}
+} */
 
 .read-the-docs {
   color: #888;
