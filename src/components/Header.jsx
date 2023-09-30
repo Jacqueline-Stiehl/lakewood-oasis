@@ -11,16 +11,19 @@ function Header () {
 
         {/* <Navbar bg="dark" variant="dark" expand="sm"> */}
         <Navbar fixedTop style={{backgroundSize: "0", backgroundColor: "#0E6251"}}>
-          <Container fluid>
-          <Navbar.Brand className="me-auto" href="/">
-            {/* <img
+          {/* <Container fluid> */}
+            <Container>
+            <span className="logo-text">        Lakewood Oasis       </span>
+          <Navbar.Brand className="ms-5" href="/">
+            <img
               src="/favicon.png"
               alt="Logo"
-              width="60"
-              height="60"
+              width="100"
+              height="100"
               className="d-inline-block align-top"
-            /> */}
-            <span className="logo-text">Lakewood Oasis</span>
+            
+            />
+            {/* <span className="logo-text">        Lakewood Oasis</span> */}
           </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">

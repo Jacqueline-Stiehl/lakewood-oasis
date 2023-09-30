@@ -5,7 +5,7 @@ import Carousel from 'react-bootstrap/Carousel';
 function Photos() {
   return (
 
-    <div bg="light blue">
+    <div className="photo-bg">
         {/* // <div className="img-container">
         // <div */}
         {/* //   className="img"

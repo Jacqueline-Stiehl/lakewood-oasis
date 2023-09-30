@@ -19,6 +19,20 @@ const contactContent = (
   </div>
 );
 
+const mapContent = (
+    <div>
+      <h2>Map</h2>
+      <p>Lakewood Oasis is a two-minute walk from the twin lakes and is close to many other amenities.</p>
+      <img
+      src="./src/assets/images/lakewood-oasis-map.png"
+      //how to resize map image? And move it up on the screen?
+    //   height="450"
+    //   width="570"
+        // alt="map of area surrounding Lakewood Oasis" 
+        />
+    </div>
+  );
+
 const AboutModal = ({ isOpen, onClose, aboutContent }) => {
   return (
     <Modal
@@ -53,14 +67,33 @@ const ContactModal = ({ isOpen, onClose, contactContent }) => {
   );
 };
 
+//fix contactContent to mapContent
+const MapModal = ({ isOpen, onClose, contactContent }) => {
+    return (
+      <Modal
+        isOpen={isOpen}
+        onRequestClose={onClose}
+        contentLabel="Map content"
+        className="contact-content"
+        overlayClassName="modal-overlay"
+      >
+        <div>{mapContent}</div>
+        <button className="close-button" onClick={onClose}>
+          Close
+        </button>
+      </Modal>
+    );
+  };
 
 
 const Footer = () => {
 
   const [isAboutModalOpen, setIsAboutModalOpen] = useState(false);
   const [isContactModalOpen, setIsContactModalOpen] = useState(false);
+  const [isMapModalOpen, setIsMapModalOpen] = useState(false);
   const [aboutModalContent, setAboutModalContent] = useState("");
   const [contactModalContent, setContactModalContent] = useState("");
+  const [mapModalContent, setMapModalContent] = useState("");
 
   const openAboutModal = () => {
     setAboutModalContent(aboutContent);
@@ -72,12 +105,21 @@ const Footer = () => {
     setIsContactModalOpen(true);
   };
 
+  const openMapModal = () => {
+    setMapModalContent(mapContent);
+    setIsMapModalOpen(true);
+  };
+
   const closeAboutModal = () => {
     setIsAboutModalOpen(false);
   };
 
   const closeContactModal = () => {
     setIsContactModalOpen(false);
+  };
+
+  const closeMapModal = () => {
+    setIsMapModalOpen(false);
   };
 
   return (
@@ -98,6 +140,10 @@ const Footer = () => {
                 onClick={openContactModal} 
                     >Contact
                 </Nav.Link>
+                <Nav.Link 
+                onClick={openMapModal}
+                    >Map
+                </Nav.Link>
               </Nav>
             </div>
           <div className="footer-info text-center">
@@ -107,6 +153,7 @@ const Footer = () => {
       </Container>
       <AboutModal isOpen={isAboutModalOpen} onClose={closeAboutModal} aboutContent={aboutModalContent} />
       <ContactModal isOpen={isContactModalOpen} onClose={closeContactModal} contactContent={contactModalContent} />
+      <MapModal isOpen={isMapModalOpen} onClose={closeMapModal} mapContent={mapModalContent} />
     </footer>
   );
 };

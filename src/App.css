@@ -5,26 +5,32 @@
   text-align: center;
 } */
 
-.header {
-  position: fixed;
-  top: 0;
-  z-index: 2;
-  width: 100%;
-}
+/* html,
+body,
+#root {
+  height: 150%;
+} */
+
+/* #root {
+  display: flex;
+  flex-direction: column;
+} */
 
 .head-text {
   position: relative;
-  color: #0b5345;
+  /* color: #0b5345; */
+  color: black;
 }
 
 .center-text {
   position: absolute;
-  top: 35%;
+  top: 25%;
   left: 50%;
   transform: translate(-50%, -50%);
   /* font-family: "Rouge Script", cursive; */
-  font-family: "Ceviche One", cursive;
+  /* font-family: "Ceviche One", cursive; */
   /* font-family: "Source Code Pro", monospace; */
+  font-family: "Roboto", sans-serif;
 }
 
 .large-font {
@@ -40,46 +46,57 @@
 }
 
 .header .navlink2 {
-  color: #3498db;
+  /* color: #3498db; */
+  color: black;
   text-decoration: none;
   transition: color 0.3s ease;
-  font-size: 20px;
-  font-family: "Ceviche One", cursive;
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  /* font-family: "Ceviche One", cursive; */
   /* margin-right: 16px; */
   /* margin-left: -30%; */
 }
 
 .header .navlink3 {
-  color: #3498db;
+  /* color: #3498db; */
+  color: black;
   text-decoration: none;
   transition: color 0.3s ease;
   /* margin-left: -30%; */
-  font-size: 20px;
-  font-family: "Ceviche One", cursive;
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  /* font-family: "Ceviche One", cursive; */
 }
 
 .header .navlink4 {
-  color: #3498db;
+  /* color: #3498db; */
+  color: black;
   text-decoration: none;
   transition: color 0.3s ease;
-  font-size: 20px;
-  font-family: "Ceviche One", cursive;
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  /* font-family: "Ceviche One", cursive; */
   /* margin-left: 3%; */
 }
 
 .header .navlink5 {
-  color: #3498db;
+  /* color: #3498db; */
+  color: black;
   text-decoration: none;
   transition: color 0.3s ease;
   /* margin-left: 3%; */
-  font-size: 20px;
-  font-family: "Ceviche One", cursive;
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  /* font-family: "Ceviche One", cursive; */
 }
 
 .logo-text {
-  color: #3498db;
-  font-family: "Ceviche One", cursive;
-  font-size: 30px;
+  /* color: #3498db; */
+  /* font-family: "Ceviche One", cursive; */
+  color: black;
+  /* font-weight: bold; */
+  font-family: "Roboto", sans-serif;
+  font-size: 50px;
 }
 
 .carousel {
@@ -124,6 +141,7 @@
   right: 0;
   bottom: 0;
   z-index: 1000;
+  color: black !important;
 }
 
 .ReactModal__Content {
@@ -134,6 +152,7 @@
   position: relative;
   z-index: 1001;
   top: 20%;
+  color: black !important;
 }
 
 /* .ReactModal__Content {
@@ -146,25 +165,39 @@
 } */
 
 .close-button {
-  position: absolute;
+  /* position: absolute; */
+  position: relative;
   top: 10px;
   right: 10px;
   cursor: pointer;
   font-size: 18px;
-  color: #333;
+  /* color: #333; */
+  color: white;
+  background-color: #0e6251;
+  border-radius: 8%;
 }
 
 .close-button:hover {
   color: #3498db;
 }
 
+.photo-bg {
+  /* background-color: #3498db; */
+  /* background-color: #d6eaf8; */
+  background-color: #aed6f1;
+}
+
 .footer {
   margin-top: auto;
-  color: #0e6251;
+  /* color: #0e6251; */
+  /* color: black !important; */
+  font-size: 25px;
   text-align: center;
   padding: 0;
   position: relative;
-  bottom: 0%;
+  position: absolute;
+  display: flex;
+  /* bottom: 0%; */
   width: 100%;
   background-color: #0e6251 !important;
 }
@@ -178,7 +211,8 @@
 .footer-content .nav {
   display: flex;
   width: 100%;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  justify-content: center;
   gap: 100px;
 }
 
@@ -186,6 +220,7 @@
   /* color: rgba(0, 0, 0, 0.18); */
   text-decoration: none;
   transition: color 0.3s ease;
+  color: black;
   font-weight: bold;
 }
 

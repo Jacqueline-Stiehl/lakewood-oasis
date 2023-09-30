@@ -17,9 +17,10 @@ const Home = () => {
   return (
     <div className="home-container head-text">
       <div className="home-header head-image">
-        <h1 className="header-text center-text" style={{ position: "fixed" }}>
-        <span id="small-font">Welcome to </span><br/>
-        <span className="large-font">Lakewood Oasis </span>  </h1>
+        <h1 className="header-text center-text" >
+        {/* <span id="small-font">Welcome to </span><br/> */}
+        {/* <span className="small-font">Your vacation getaway in Phoenix, Arizona </span>   */}
+        </h1>
          
       </div>
       <div className="img-container">
