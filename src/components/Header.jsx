@@ -10,10 +10,13 @@ function Header () {
       <header className="header">  
 
         {/* <Navbar bg="dark" variant="dark" expand="sm"> */}
-        <Navbar fixedTop style={{backgroundSize: "0", backgroundColor: "#0E6251"}}>
+        <Navbar fixedTop style={{backgroundSize: "0", backgroundColor: "#154360"
+        // backgroundColor: "#2C3E50"
+        // backgroundColor: "#0E6251"
+        }}>
           {/* <Container fluid> */}
             <Container>
-            <span className="logo-text">        Lakewood Oasis       </span>
+            {/* <span className="logo-text">        Lakewood Oasis       </span> */}
           <Navbar.Brand className="ms-5" href="/">
             <img
               src="/favicon.png"
@@ -21,9 +24,8 @@ function Header () {
               width="100"
               height="100"
               className="d-inline-block align-top"
-            
             />
-            {/* <span className="logo-text">        Lakewood Oasis</span> */}
+            <span className="logo-text">        Lakewood Oasis</span>
           </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">

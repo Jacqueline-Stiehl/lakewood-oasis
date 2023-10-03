@@ -19,7 +19,7 @@ const Home = () => {
       <div className="home-header head-image">
         <h1 className="header-text center-text" >
         {/* <span id="small-font">Welcome to </span><br/> */}
-        {/* <span className="small-font">Your vacation getaway in Phoenix, Arizona </span>   */}
+        <span className="small-font">Your vacation getaway in Phoenix, Arizona </span>  
         </h1>
          
       </div>
@@ -28,7 +28,7 @@ const Home = () => {
           className="img"
           style={{
             backgroundImage: `url(${Background})`,
-            backgroundSize: 'cover',
+            // backgroundSize: 'cover',
             width: '100%',
             height: '100vh',
           }}

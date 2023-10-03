@@ -1,4 +1,6 @@
 import Carousel from 'react-bootstrap/Carousel';
+import CardContainer from "../../components/CardContainer";
+import {Card, Stack, CardBody} from '@chakra-ui/react'
 // import Background2 from "../../assets/images/49.jpg";
 // import ExampleCarouselImage from 'components/ExampleCarouselImage';
 
@@ -17,7 +19,12 @@ function Photos() {
         //     opacity: ".5",
         //   }}
         // > */}
-      
+        
+      {/* <Card className="timeline-content" direction={{ base: 'column', sm: 'row' }} overflow='hidden' variant='outline'> */}
+      {/* photo cards center when I removed the direction content in the line above */}
+      <Card className="timeline-content" overflow='hidden' variant='outline'>
+      <Stack>
+        <CardBody className="timeline-container" marginBottom={"170px"}>
     <Carousel fade pause="hover" data-bs-theme="dark">
       <Carousel.Item>
         <img
@@ -492,6 +499,16 @@ function Photos() {
     </Carousel>
     {/* // </div>
     // </div> */}
+    </CardBody>
+    </Stack>
+    </Card>
+    {/* <Card>
+        <Stack> */}
+        <h1>Property Features</h1>
+    <CardContainer className="cardcont"/>
+    
+    {/* </Stack>
+    </Card> */}
     </div>
   );
 }

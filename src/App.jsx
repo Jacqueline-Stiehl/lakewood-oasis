@@ -6,7 +6,8 @@ import Footer from "./components/Footer"
 import Header from "./components/Header"
 import Home from "./components/pages/Home"
 import Photos from "./components/pages/Photos"
-// import Amenities from "./components/pages/Amenities"
+import CardContainer from "./components/CardContainer"
+import Amenities from "./components/pages/Amenities"
 // import Calendar from "./components/pages/Calendar"
 import {ChakraProvider} from "@chakra-ui/react"
 import './App.css'
@@ -21,7 +22,8 @@ function App() {
         <Routes>
           <Route path="/home" element={<Home />}/>
           <Route path="/photos" element={<Photos />}/>
-          {/* <Route path="/amenities" element={<Amenities />}/> */}
+          <Route path="/icons" element={<CardContainer />}/>
+          <Route path="/amenities" element={<Amenities />}/>
           {/* <Route path="/calendar" element={<Calendar/>}/> */}
         </Routes>
         <Footer/>

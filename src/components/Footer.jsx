@@ -26,9 +26,13 @@ const mapContent = (
       <img
       src="./src/assets/images/lakewood-oasis-map.png"
       //how to resize map image? And move it up on the screen?
+
     //   height="450"
     //   width="570"
-        // alt="map of area surrounding Lakewood Oasis" 
+    //     alt="map of area surrounding Lakewood Oasis" 
+    height="450"
+    width="570"
+    alt="map of area surrounding Lakewood Oasis"
         />
     </div>
   );
@@ -67,14 +71,14 @@ const ContactModal = ({ isOpen, onClose, contactContent }) => {
   );
 };
 
-//fix contactContent to mapContent
-const MapModal = ({ isOpen, onClose, contactContent }) => {
+//fix contactContent to mapContent--done on 10-2-23
+const MapModal = ({ isOpen, onClose, mapContent }) => {
     return (
       <Modal
         isOpen={isOpen}
         onRequestClose={onClose}
         contentLabel="Map content"
-        className="contact-content"
+        className="map-content"
         overlayClassName="modal-overlay"
       >
         <div>{mapContent}</div>
