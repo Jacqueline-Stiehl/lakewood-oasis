@@ -46,6 +46,14 @@ h1 {
   color: black;
 }
 
+.card-22 {
+  /* height: 300px; */
+  /* flex-wrap: wrap-reverse; */
+  /* overflow-wrap: normal; */
+  /* width: 300px; */
+  /* padding: 10px; */
+}
+
 .center-text {
   position: absolute;
   top: 25%;

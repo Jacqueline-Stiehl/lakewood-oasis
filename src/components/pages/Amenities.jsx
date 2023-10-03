@@ -3,12 +3,17 @@ import CardContainer from "../../components/CardContainer";
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 // import Card from "./DashboardCards";
-import { HStack, VStack } from "@chakra-ui/react";
+import { HStack, VStack, Stack } from "@chakra-ui/react";
 import { CardBody, Text, Card, Button} from "@chakra-ui/react";
 // import { Bed } from '@chakra-ui/icons'
 // import {faBed} from "@chakra-ui/icons"
 // import { FontAwesomeIcon } from "@chakra-ui/icons";
 import { FaTwitter, FaLinkedinIn, FaGithub } from 'react-icons/fa';
+import {
+    Grid,
+    Image,
+    Heading,
+  } from "@chakra-ui/react";
 
 const Amenities = () => {
     const cards = [
@@ -64,15 +69,16 @@ const Amenities = () => {
           ))}
         </VStack>
       ) : (
-        <HStack spacing={4}>
+        <Stack direction={"row"} spacing={4}>
           {cards.map((card, index) => {
             const paths = ['/home', '/amenities', '/home'];
 
 
             return (
-                
+                <>
+                <Grid templateColumns="repeat(1, 1fr)" gap={6}>
               <div className="container-card text-center" key={index}>
-                
+              
                 <Card className={`card-22`} maxW="sm" marginBottom={"70px"} >
                   <>
                     <CardBody className="card-contents" style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
@@ -92,11 +98,41 @@ const Amenities = () => {
                         </Button>
                       </Link> */}
               </div>
+              </Grid>
+              {/* <div className="fav-content">
+                <Grid templateColumns="repeat(4, 1fr)" gap={6}>
+
+                    <Card maxW='md'>
+                        <CardBody>
+                            <Image
+                            src="#"
+                            alt='Danika in kindergarten'
+                            borderRadius='lg'
+                    />
+                    <Stack mt='6' spacing='3'>
+                        <Heading size='md'>Kindergarten</Heading>
+                            <Text>
+                                 This is Danika in kindergarten.
+                            </Text>
+                        <Text color='blue.600' fontSize='2xl'>
+                        Danika Grace
+                        </Text>
+                        </Stack>
+                    </CardBody>
+                </Card>
+            </Grid>
+        </div> */}
+        
+              </>
+              
             );
+            
           })}
-        </HStack>
+          
+        </Stack>
       )}
     </div>
+    
     </div>
   );
 
