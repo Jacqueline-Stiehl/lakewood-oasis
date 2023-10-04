@@ -28,7 +28,7 @@ const Home = () => {
           className="img"
           style={{
             backgroundImage: `url(${Background})`,
-            // backgroundSize: 'cover',
+            backgroundSize: 'cover',
             width: '100%',
             height: '100vh',
           }}
