@@ -1,6 +1,7 @@
 import Carousel from 'react-bootstrap/Carousel';
 import CardContainer from "../../components/CardContainer";
 import {Card, Stack, CardBody} from '@chakra-ui/react'
+import Map from '../Map';
 // import Background2 from "../../assets/images/49.jpg";
 // import ExampleCarouselImage from 'components/ExampleCarouselImage';
 
@@ -506,6 +507,7 @@ function Photos() {
         <Stack> */}
         <h1>Property Features</h1>
     <CardContainer className="cardcont"/>
+    <Map/>
     
     {/* </Stack>
     </Card> */}

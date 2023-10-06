@@ -7,6 +7,7 @@ import Header from "./components/Header"
 import Home from "./components/pages/Home"
 import Photos from "./components/pages/Photos"
 import CardContainer from "./components/CardContainer"
+// import Map from "./components/Map"
 import Amenities from "./components/pages/Amenities"
 // import Calendar from "./components/pages/Calendar"
 import {ChakraProvider} from "@chakra-ui/react"
@@ -24,6 +25,7 @@ function App() {
           <Route path="/photos" element={<Photos />}/>
           <Route path="/icons" element={<CardContainer />}/>
           <Route path="/amenities" element={<Amenities />}/>
+          <Route path="/map" element={<Map />}/>
           {/* <Route path="/calendar" element={<Calendar/>}/> */}
         </Routes>
         <Footer/>

@@ -22,16 +22,20 @@ const contactContent = (
 const mapContent = (
     <div>
       <h2>Map</h2>
-      <p>Lakewood Oasis is a two-minute walk from the twin lakes and is close to many other amenities.</p>
+      <p>Lakewood Oasis is a two-minute walk from twin lakes and is close to many other amenities.</p>
+      {/* <p>Click here <a href="https://www.google.com/maps/d/edit?mid=1gVEizNNN21pg0W-RnTJ1n9cy-fH_fck&usp=sharing"></a>to see a close up of the Lakewood Oasis location.</p> */}
       <img
-      src="./src/assets/images/lakewood-oasis-map.png"
+    //   src="https://www.google.com/maps/d/edit?mid=1gVEizNNN21pg0W-RnTJ1n9cy-fH_fck&ll=33.32015105192812%2C-112.0255193866457&z=14"
+    //   src="./src/assets/images/lakewood-oasis-map.png"
+    src="./src/assets/images/lakewood-oasis-map-with-inset.png"
       //how to resize map image? And move it up on the screen?
 
     //   height="450"
     //   width="570"
     //     alt="map of area surrounding Lakewood Oasis" 
-    height="450"
-    width="570"
+    
+    height="100vh"
+    width="100%"
     alt="map of area surrounding Lakewood Oasis"
         />
     </div>
