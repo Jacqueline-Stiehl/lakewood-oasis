@@ -3,6 +3,7 @@ import '../../../src/App.css'
 // import { Button } from "@chakra-ui/react";
 
 import Background from "../../assets/images/49.jpg"
+import Description from '../Description'
 
 // Font.register({family: "Ceviche One", src: source})
 
@@ -15,6 +16,7 @@ import Background from "../../assets/images/49.jpg"
 const Home = () => {
 
   return (
+    <>
     <div className="home-container head-text">
       <div className="home-header head-image">
         <h1 className="header-text center-text" >
@@ -51,6 +53,10 @@ const Home = () => {
         {/* </div>
       </div> */}
     </div>
+    <div className="description">
+        <Description/>
+    </div>
+    </>
   )
 }
 
