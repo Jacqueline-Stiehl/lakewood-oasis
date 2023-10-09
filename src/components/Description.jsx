@@ -30,27 +30,31 @@ function Description () {
     return (
       <>
     <Center py={6}>
-        <Card
+        <Card className="border border-dark"
             direction={{ base: 'column', sm: 'row' }}
             overflow='hidden'
             variant='outline'
             >
-        <Image
+        <Image 
+        // className="d-block w-100 block-example border border-dark"
             objectFit='cover'
             maxW={{ base: '100%', sm: '600px' }}
             src="../../src/assets/images/LakewoodOasis-1.jpg"
-            alt='Caffe Latte'
+            alt='front of Lakewood Oasis'
             />
 
-        <Stack borderWidth="1px"
+        <Stack 
+        // borderWidth="1px"
             borderRadius="lg"
             w={{ sm: '100%', md: '540px' }}
-            height={{ sm: '476px', md: '20rem' }}>
+            height={{ sm: '476px', md: '20rem' }}
+            
+            >
         <CardBody >
             <Heading py="1" size='md'>The perfect vacation home</Heading>
-            <Flex spacing='4'>
-            <Flex flex='1' gap='4' alignItems='center' flexWrap='wrap'>
-            <Text py='1'>Lakewood Oasis offers more than just a place to stay. Enjoy nearby shopping, dining, and entertainment options, and take a stroll through this friendly neighborhood. Lakewood Oasis is a three-bedroom, two and half-bath, two-level home with a private heated pool and spa. After a day of exploring nearby hiking trails or golf courses, the cozy family room is the perfect place to relax. The kitchen is stocked with everything you need to cook your favorite meals...or to bake a frozen pizza! Upstairs the primary bedroom offers a king bed with a walk in closet and ensuite. The other two bedrooms offer a queen bed and a bunk bed (twin over full) respectively. Whether travelling with friends or as a family, we have room for everyone!</Text>
+            <Flex spacing='4' >
+            <Flex flex='1' gap='4' alignItems='center' flexWrap='wrap' >
+            <Text py='1' >Lakewood Oasis offers more than just a place to stay. Enjoy nearby shopping, dining, and entertainment options, and take a stroll through this friendly neighborhood. Lakewood Oasis is a three-bedroom, two and half-bath, two-level home with a private heated pool and spa. After a day of exploring nearby hiking trails or golf courses, the cozy family room is the perfect place to relax. The kitchen is stocked with everything you need to cook your favorite meals...or to bake a frozen pizza! Upstairs the primary bedroom offers a king bed with a walk in closet and ensuite. The other two bedrooms offer a queen bed and a bunk bed (twin over full) respectively. Whether travelling with friends or as a family, we have room for everyone!</Text>
             </Flex>
             </Flex>
         </CardBody>
@@ -59,18 +63,19 @@ function Description () {
     </Center>
 
     <Center py={6}>
-        <Card
+        <Card className="border border-dark"
             direction={{ base: 'column', sm: 'row' }}
             overflow='hidden'
             variant='outline'
             >
-<Stack borderWidth="1px"
+<Stack 
+// borderWidth="1px"
             borderRadius="lg"
             w={{ sm: '100%', md: '540px' }}
             height={{ sm: '476px', md: '20rem' }}
             >
 <CardBody >
-            <Heading py="10" size='md'>An oasis in the desert</Heading>
+            <Heading pt="20" size='md'>An oasis in the desert</Heading>
             <Flex spacing='4'>
             <Flex flex='1' gap='4' alignItems='center' flexWrap='wrap'>
             <Text py='1'>The backyard offers a glistening pool that invites you to take a dip and the hot tub stands ready for relaxation. The lounge chairs and sitting area make this the perfect space to enjoy a sunny day in the desert!</Text>
@@ -84,7 +89,8 @@ function Description () {
             w={{ sm: '100%', md: '540px' }}
             height={{ sm: '476px', md: '20rem' }}
             > */}
-        <Image
+        <Image 
+        // className="d-block w-100 block-example border border-dark"
             objectFit='cover'
             maxW={{ base: '100%', sm: '600px' }}
             src="../../src/assets/images/LakewoodOasis-34.jpg"
@@ -95,24 +101,25 @@ function Description () {
     </Center>
 
     <Center py={6}>
-        <Card
+        <Card className="border border-dark"
             direction={{ base: 'column', sm: 'row' }}
             overflow='hidden'
             variant='outline'
             >
-        <Image
+        <Image 
             objectFit='cover'
             maxW={{ base: '100%', sm: '600px' }}
             src="../../src/assets/images/lakewood-oasis-map2.png"
             alt='map of area surrounding Lakewood Oasis'
             />
 
-        <Stack borderWidth="1px"
+        <Stack 
+        // borderWidth="1px"
             borderRadius="lg"
             w={{ sm: '100%', md: '540px' }}
             height={{ sm: '476px', md: '20rem' }}>
         <CardBody >
-            <Heading py="10" size='md'>The ideal location</Heading>
+            <Heading pt="20" size='md'>The ideal location</Heading>
             <Flex spacing='4'>
             <Flex flex='1' gap='4' alignItems='center' flexWrap='wrap'>
             <Text py='1'>Located near restaurants and shopping, golf and hiking, you will find plenty to do. Looking to explore beyond Ahwatukee? Just hop on the 202 or Hwy 10 and you can be anywhere in minutes!</Text>

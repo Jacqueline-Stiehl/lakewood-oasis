@@ -40,6 +40,10 @@ h1 {
   color: #154360;
 }
 
+.add-amen {
+  margin-top: -70px !important;
+}
+
 .head-text {
   position: relative;
   /* color: #0b5345; */
@@ -76,6 +80,7 @@ h1 {
   /* font-family: "Croissant One", cursive; */
   /* font-family: "Bebas Neue", sans-serif; */
   color: white;
+  font-size: 49px;
 }
 
 .header .navlink2 {
