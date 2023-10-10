@@ -17,7 +17,7 @@ function Header () {
           {/* <Container fluid> */}
             <Container>
             {/* <span className="logo-text">        Lakewood Oasis       </span> */}
-          <Navbar.Brand className="ms-5" href="/">
+          <Navbar.Brand className="ms-5" href="/home">
             <img
               src="/favicon.png"
               alt="Logo"
