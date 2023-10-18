@@ -10,7 +10,7 @@ function Header () {
       <header className="header">  
 
         {/* <Navbar bg="dark" variant="dark" expand="sm"> */}
-        <Navbar fixedTop style={{backgroundSize: "0", backgroundColor: "#154360"
+        <Navbar className="navbar navbar-dark" expand="lg" fixedTop style={{backgroundSize: "0", backgroundColor: "#154360"
         // backgroundColor: "#2C3E50"
         // backgroundColor: "#0E6251"
         }}>
@@ -28,7 +28,7 @@ function Header () {
             <span className="logo-text">        Lakewood Oasis</span>
           </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
-              <Navbar.Collapse id="basic-navbar-nav">
+              <Navbar.Collapse id="basic-navbar-nav" >
                <Nav className="me-auto">
                </Nav>
             {/* Right-side Nav Options */}
