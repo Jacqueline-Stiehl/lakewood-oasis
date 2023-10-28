@@ -9,18 +9,6 @@ function Photos() {
   return (
 
     <div className="photo-bg">
-        {/* // <div className="img-container">
-        // <div */}
-        {/* //   className="img"
-        //   style={{ */}
-        {/* //     backgroundImage: `url(${Background2})`,
-        //     backgroundSize: 'cover',
-        //     width: '100%',
-        //     height: '100vh',
-        //     opacity: ".5",
-        //   }}
-        // > */}
-        
       {/* <Card className="timeline-content" direction={{ base: 'column', sm: 'row' }} overflow='hidden' variant='outline'> */}
       {/* photo cards center when I removed the direction content in the line above */}
       <Card className="timeline-content" overflow='hidden' variant='outline'>

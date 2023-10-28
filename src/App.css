@@ -482,6 +482,7 @@ h1 {
   /* background-color: #3498db; */
   /* background-color: #d6eaf8; */
   /* background-color: #aed6f1; */
+  position: relative;
 }
 
 .container-center {
@@ -491,8 +492,22 @@ h1 {
   margin-bottom: 9%;
 }
 
+.carousel-navigation.left {
+  margin-left: -45px;
+}
+
+.carousel-navigation.right {
+  margin-right: -45px;
+}
+
 /* .timeline-content {
-  position: relative;
+  position: unset;
+  .react-carousel__arrow {
+    position: absolute;
+  }
+  .react-carousel__arrow--left {
+    left: calc(-3% + 1px);
+  }
   bottom: -190px;
   justify-content: center;
   align-items: center;

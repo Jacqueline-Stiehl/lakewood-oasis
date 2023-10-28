@@ -5,14 +5,6 @@ import '../../../src/App.css'
 import Background from "../../assets/images/49.jpg"
 import Description from '../Description'
 
-// Font.register({family: "Ceviche One", src: source})
-
-// const styles = StyleSheet.create ({
-//     title: {
-//         fontFamily: "Ceviche One"
-//     }
-// })
-
 const Home = () => {
 
   return (
@@ -40,22 +32,7 @@ const Home = () => {
           }}
         ></div>
       </div>
-      {/* <div className="home-container">
-        <div style={{ position: "fixed" }}> */}
-          {/* <Button
-            className='homeButton'
-            colorScheme="orange"
-            onClick={() => {
-              window.open("https://arb.umn.edu/", "_blank");
-            }}
-            style={buttonStyles}
-            size="lg"
-          >
-            Click for Resources <br />
-            from the Minnesota Arboretum!
-          </Button> */}
-        {/* </div>
-      </div> */}
+      
     </div>
     <div className="description">
         <Description/>
