@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 // import Card from "./DashboardCards";
 import { HStack, VStack, Stack } from "@chakra-ui/react";
 import { CardBody, Text, Card, Button} from "@chakra-ui/react";
-import { MdCheckCircle, MdDone } from "react-icons/md";
+// import { MdCheckCircle, MdDone } from "react-icons/md";
 import {
     Box,
     Grid,
@@ -77,8 +77,8 @@ const Calendar = () => {
         <Text className="bi">
         <UnorderedList styleType="none" fontSize="20px">
             {/* <ListItem><ListIcon as={MdCheckCircle} color="#EC7063" fill="currentColor"/>Heated pool</ListItem> */}
-            <ListItem color="#154360"><ListIcon as={MdDone} color="#EC7063" fill="currentColor"/>Guests can pay by cashier's check or Venmo</ListItem>
-            <ListItem color="#154360"><ListIcon as={MdDone} color="#EC7063" fill="currentColor"/>Dates are not booked until the contract is signed and payment is received</ListItem>
+            {/* <ListItem color="#154360"><ListIcon as={MdDone} color="#EC7063" fill="currentColor"/>Guests can pay by cashier's check or Venmo</ListItem> */}
+            {/* <ListItem color="#154360"><ListIcon as={MdDone} color="#EC7063" fill="currentColor"/>Dates are not booked until the contract is signed and payment is received</ListItem> */}
         </UnorderedList>
       </Text>
     </Stack>
