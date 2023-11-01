@@ -9,7 +9,7 @@ import { CardBody, Text, Card, Button} from "@chakra-ui/react";
 // import {faBed} from "@chakra-ui/icons"
 // import { FontAwesomeIcon } from "@chakra-ui/icons";
 // import { FaTwitter, FaLinkedinIn, FaGithub } from 'react-icons/fa';
-import { MdDone } from "react-icons/md";
+// import { MdDone } from "react-icons/md"; commented out 11-1-23 to deploy to Netlify
 import {
     Box,
     Grid,
@@ -196,20 +196,21 @@ p={8}
         <Text className="bi">
         <UnorderedList styleType="none" fontSize="20px">
             {/* <ListItem><ListIcon as={MdCheckCircle} color="#EC7063" fill="currentColor"/>Heated pool</ListItem> */}
-            <ListItem color="#154360"><ListIcon as={MdDone} color="#EC7063" fill="currentColor"/>Heated pool</ListItem>
-            <ListItem color="#154360"><ListIcon as={MdDone} color="#EC7063" fill="currentColor"/>Hot tub</ListItem>
-            <ListItem color="#154360"><ListIcon as={MdDone} color="#EC7063" fill="currentColor"/>Lounge chairs</ListItem>
-            <ListItem color="#154360"><ListIcon as={MdDone} color="#EC7063" fill="currentColor"/>Outdoor dining set</ListItem>
-            <ListItem color="#154360"><ListIcon as={MdDone} color="#EC7063" fill="currentColor"/>Grill</ListItem>
-            <ListItem color="#154360"><ListIcon as={MdDone} color="#EC7063" fill="currentColor"/>Fully stocked kitchen (dishes, glasses, coffee cups, pots and pans, toaster, utensils...)</ListItem>
-            <ListItem color="#154360"><ListIcon as={MdDone} color="#EC7063" fill="currentColor"/>Smart TVs</ListItem>
-            <ListItem color="#154360"><ListIcon as={MdDone} color="#EC7063" fill="currentColor"/>Printer</ListItem>
-            <ListItem color="#154360"><ListIcon as={MdDone} color="#EC7063" fill="currentColor"/>Desk/office space</ListItem>
-            <ListItem color="#154360"><ListIcon as={MdDone} color="#EC7063" fill="currentColor"/>Garage parking</ListItem>
-            <ListItem color="#154360"><ListIcon as={MdDone} color="#EC7063" fill="currentColor"/>King bed</ListItem>
-            <ListItem color="#154360"><ListIcon as={MdDone} color="#EC7063" fill="currentColor"/>Private primary bath</ListItem>
-            <ListItem color="#154360"><ListIcon as={MdDone} color="#EC7063" fill="currentColor"/>Queen bed</ListItem>
-            <ListItem color="#154360"><ListIcon as={MdDone} color="#EC7063" fill="currentColor"/>Twin over full bunk bed</ListItem>
+            {/* List items below were commented out 11-1-23 to deploy via Netlify */}
+            {/* <ListItem color="#154360"><ListIcon as={MdDone} color="#EC7063" fill="currentColor"/>Heated pool</ListItem> */}
+            {/* <ListItem color="#154360"><ListIcon as={MdDone} color="#EC7063" fill="currentColor"/>Hot tub</ListItem> */}
+            {/* <ListItem color="#154360"><ListIcon as={MdDone} color="#EC7063" fill="currentColor"/>Lounge chairs</ListItem> */}
+            {/* <ListItem color="#154360"><ListIcon as={MdDone} color="#EC7063" fill="currentColor"/>Outdoor dining set</ListItem> */}
+            {/* <ListItem color="#154360"><ListIcon as={MdDone} color="#EC7063" fill="currentColor"/>Grill</ListItem> */}
+            {/* <ListItem color="#154360"><ListIcon as={MdDone} color="#EC7063" fill="currentColor"/>Fully stocked kitchen (dishes, glasses, coffee cups, pots and pans, toaster, utensils...)</ListItem> */}
+            {/* <ListItem color="#154360"><ListIcon as={MdDone} color="#EC7063" fill="currentColor"/>Smart TVs</ListItem> */}
+            {/* <ListItem color="#154360"><ListIcon as={MdDone} color="#EC7063" fill="currentColor"/>Printer</ListItem> */}
+            {/* <ListItem color="#154360"><ListIcon as={MdDone} color="#EC7063" fill="currentColor"/>Desk/office space</ListItem> */}
+            {/* <ListItem color="#154360"><ListIcon as={MdDone} color="#EC7063" fill="currentColor"/>Garage parking</ListItem> */}
+            {/* <ListItem color="#154360"><ListIcon as={MdDone} color="#EC7063" fill="currentColor"/>King bed</ListItem> */}
+            {/* <ListItem color="#154360"><ListIcon as={MdDone} color="#EC7063" fill="currentColor"/>Private primary bath</ListItem> */}
+            {/* <ListItem color="#154360"><ListIcon as={MdDone} color="#EC7063" fill="currentColor"/>Queen bed</ListItem> */}
+            {/* <ListItem color="#154360"><ListIcon as={MdDone} color="#EC7063" fill="currentColor"/>Twin over full bunk bed</ListItem> */}
         </UnorderedList>
       </Text>
     </Stack>
