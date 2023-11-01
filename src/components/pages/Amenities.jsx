@@ -9,7 +9,7 @@ import { CardBody, Text, Card, Button} from "@chakra-ui/react";
 // import {faBed} from "@chakra-ui/icons"
 // import { FontAwesomeIcon } from "@chakra-ui/icons";
 // import { FaTwitter, FaLinkedinIn, FaGithub } from 'react-icons/fa';
-import { MdCheckCircle, MdDone } from "react-icons/md";
+import { MdDone } from "react-icons/md";
 import {
     Box,
     Grid,
