@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 // import Card from "./DashboardCards";
 import { HStack, VStack, Stack } from "@chakra-ui/react";
 import { CardBody, Text, Card, Button} from "@chakra-ui/react";
-// import { MdCheckCircle, MdDone } from "react-icons/md";
+// import { MdCheckCircle, MdDone } from "react-icons/md";--commented out for Netlify deployment 10-31-23
 import {
     Box,
     Grid,
@@ -76,6 +76,7 @@ const Calendar = () => {
         <Stack mt='6' spacing='3'>
         <Text className="bi">
         <UnorderedList styleType="none" fontSize="20px">
+          {/* the below lines were commented out on 10-31-23 for Netlify deployment */}
             {/* <ListItem><ListIcon as={MdCheckCircle} color="#EC7063" fill="currentColor"/>Heated pool</ListItem> */}
             {/* <ListItem color="#154360"><ListIcon as={MdDone} color="#EC7063" fill="currentColor"/>Guests can pay by cashier's check or Venmo</ListItem> */}
             {/* <ListItem color="#154360"><ListIcon as={MdDone} color="#EC7063" fill="currentColor"/>Dates are not booked until the contract is signed and payment is received</ListItem> */}
