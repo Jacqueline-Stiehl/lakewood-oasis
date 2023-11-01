@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 // import Card from "./DashboardCards";
 import { HStack, VStack, Stack } from "@chakra-ui/react";
 import { CardBody, Text, Card, Button} from "@chakra-ui/react";
-import { CheckIcon } from '@chakra-ui/icons'
+// import { CheckIcon } from '@chakra-ui/icons'
 // import {faBed} from "@chakra-ui/icons"
 // import { FontAwesomeIcon } from "@chakra-ui/icons";
 import { FaTwitter, FaLinkedinIn, FaGithub } from 'react-icons/fa';
