@@ -17,6 +17,9 @@ import {
     VStack,
   } from '@chakra-ui/react'
 import { useNavigate } from "react-router-dom";
+import pic34 from "../assets/images/LakewoodOasis-34.jpg";
+import pic1 from "../../assets/images/LakewoodOasis-1.jpg";
+import map2 from "../assets/images/lakewood-oasis-2.jpg"
 
 
 function Description () {
@@ -39,7 +42,8 @@ function Description () {
         // className="d-block w-100 block-example border border-dark"
             objectFit='cover'
             maxW={{ base: '100%', sm: '600px' }}
-            src="../../src/assets/images/LakewoodOasis-1.jpg"
+            // src="../../src/assets/images/LakewoodOasis-1.jpg"
+            src={pic1}
             alt='front of Lakewood Oasis'
             />
 
@@ -93,7 +97,8 @@ function Description () {
         // className="d-block w-100 block-example border border-dark"
             objectFit='cover'
             maxW={{ base: '100%', sm: '600px' }}
-            src="../../src/assets/images/LakewoodOasis-34.jpg"
+            // src="../../src/assets/images/LakewoodOasis-34.jpg"
+            src={pic34}
             alt='Backyard pool and hot tub'
             />
         {/* </Stack> */}
@@ -109,7 +114,8 @@ function Description () {
         <Image 
             objectFit='cover'
             maxW={{ base: '100%', sm: '600px' }}
-            src="../../src/assets/images/lakewood-oasis-map2.png"
+            // src="../../src/assets/images/lakewood-oasis-map2.png"
+            src={map2}
             alt='map of area surrounding Lakewood Oasis'
             />
 

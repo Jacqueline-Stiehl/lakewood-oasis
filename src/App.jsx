@@ -25,9 +25,9 @@ function App() {
         <Route path="/" element={<Home />}/>
           <Route path="/home" element={<Home />}/>
           <Route path="/photos" element={<Photos />}/>
-          {/* <Route path="/icons" element={<CardContainer />}/> */}
+          <Route path="/icons" element={<CardContainer />}/>
           <Route path="/amenities" element={<Amenities />}/>
-          {/* <Route path="/description" element={<Description />}/> */}
+          <Route path="/description" element={<Description />}/>
           <Route path="/calendar" element={<Calendar />} />
           {/* <Route path="/map" element={<Map />}/> */}
           {/* <Route path="/calendar" element={<Calendar/>}/> */}
