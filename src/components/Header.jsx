@@ -4,6 +4,7 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 import "../../src/App.css"
 
 function Header () {
+  const location = useLocation();
   const currentPath = location.pathname;
   
     return (
