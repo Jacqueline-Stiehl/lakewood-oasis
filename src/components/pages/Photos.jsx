@@ -39,8 +39,6 @@ import pic35 from "../../assets/images/LakewoodOasis-35.jpg";
 import pic36 from "../../assets/images/LakewoodOasis-36.jpg";
 import pic37 from "../../assets/images/LakewoodOasis-37.jpg";
 import pic38 from "../../assets/images/LakewoodOasis-38.jpg";
-import pic39 from "../../assets/images/LakewoodOasis-39.jpg";
-import pic40 from "../../assets/images/LakewoodOasis-40.jpg";
 import pic41 from "../../assets/images/LakewoodOasis-41.jpg";
 import pic42 from "../../assets/images/LakewoodOasis-42.jpg";
 import pic43 from "../../assets/images/LakewoodOasis-43.jpg";
