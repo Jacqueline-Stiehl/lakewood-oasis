@@ -19,7 +19,7 @@ import {
 import { useNavigate } from "react-router-dom";
 import pic34 from "../assets/images/LakewoodOasis-34.jpg";
 import pic1 from "../../assets/images/LakewoodOasis-1.jpg";
-import map2 from "../assets/images/lakewood-oasis-2.jpg"
+import map2 from "../assets/images/lakewood-oasis-map2.png"
 
 
 function Description () {
