@@ -18,7 +18,7 @@ import {
   } from '@chakra-ui/react'
 import { useNavigate } from "react-router-dom";
 import pic34 from "../assets/images/LakewoodOasis-34.jpg";
-import pic1 from "../../assets/images/LakewoodOasis-1.jpg";
+import pic1 from "../assets/images/LakewoodOasis-1.jpg";
 import map2 from "../assets/images/lakewood-oasis-map2.png"
 
 
@@ -43,7 +43,7 @@ function Description () {
             objectFit='cover'
             maxW={{ base: '100%', sm: '600px' }}
             // src="../../src/assets/images/LakewoodOasis-1.jpg"
-            src={pic1}
+            src={pic1} fluid
             alt='front of Lakewood Oasis'
             />
 
