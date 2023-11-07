@@ -39,7 +39,7 @@ const Calendar = () => {
 
   return (
     <div>
-      <div className="photo-bg">
+      <div className="photo-bg centerCalendar">
         <h1>Calendar</h1>
           <p>Please contact us to book your dates.</p>
       </div>
@@ -75,11 +75,16 @@ const Calendar = () => {
     <CardBody >
         <Stack mt='6' spacing='3'>
         <Text className="bi">
-        <UnorderedList styleType="none" fontSize="20px">
+        {/* <UnorderedList styleType="none" fontSize="20px"> */}
+        <UnorderedList fontSize="20px">
           {/* the below lines were commented out on 10-31-23 for Netlify deployment */}
             {/* <ListItem><ListIcon as={MdCheckCircle} color="#EC7063" fill="currentColor"/>Heated pool</ListItem> */}
             {/* <ListItem color="#154360"><ListIcon as={MdDone} color="#EC7063" fill="currentColor"/>Guests can pay by cashier's check or Venmo</ListItem> */}
             {/* <ListItem color="#154360"><ListIcon as={MdDone} color="#EC7063" fill="currentColor"/>Dates are not booked until the contract is signed and payment is received</ListItem> */}
+
+            <ListItem>Heated pool</ListItem>
+            <ListItem color="#154360">Guests can pay by cashier's check or Venmo</ListItem>
+            <ListItem color="#154360">Dates are not booked until the contract is signed and payment is received</ListItem>
         </UnorderedList>
       </Text>
     </Stack>

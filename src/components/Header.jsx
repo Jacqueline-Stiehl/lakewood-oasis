@@ -3,23 +3,24 @@ import React, { useState } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { useLocation } from "react-router-dom";
 import "../../src/App.css"
+// import './Header.css';
 
 function Header () {
   const location = useLocation();
   const currentPath = location.pathname;
   
     return (
-      // <header className="header" >  
-      <header className={`header flex justify-between items-center h-24 w-full px-4 md:px-8 lg:px-16 2xl:px-32 py-6 drop-shadow-brand`} >
+      <header className="header" >
 
         {/* <Navbar bg="dark" variant="dark" expand="sm"> */}
-        <Navbar className="navbar navbar-dark" expand="lg" fixedTop style={{backgroundSize: "0", backgroundColor: "#154360"
+        <Navbar className="navbar navbar-dark" expand="lg" fixedTop style={{backgroundSize: "0", backgroundColor: "#154360"}}
         // backgroundColor: "#2C3E50"
         // backgroundColor: "#0E6251"
-        }}>
+        >
           {/* <Container fluid> */}
             <Container>
             {/* <span className="logo-text">        Lakewood Oasis       </span> */}
+          {/* <Navbar.Brand className="logo" href="/home"> */}
           <Navbar.Brand className="ms-5" href="/home">
             <img
               src="/favicon.png"
@@ -35,7 +36,7 @@ function Header () {
                <Nav className="me-auto">
                </Nav>
             {/* Right-side Nav Options */}
-               <Nav>
+               <Nav className="menu">
                 <>
                 {currentPath !== "/home" && (
                     <Nav.Link href="/home"  className="navlink2">Home</Nav.Link>
@@ -47,11 +48,11 @@ function Header () {
                     <Nav.Link href="/amenities" className="navlink5">Amenities</Nav.Link>
                   )}
                   {currentPath !== "/calendar" && (
-                    <Nav.Link href="/calendar" className="navlink4" style={{ whiteSpace: "nowrap" }}>Calendar</Nav.Link>
+                    <Nav.Link href="/calendar" className="navlink4">Calendar</Nav.Link>
                   )}
                   {/* {currentPath !== "/Messages" && (
                     <Nav.Link href="/Messages" className="navlink3">Messages</Nav.Link>
-                  )} */}
+)} */}
                 </>
                </Nav>
               </Navbar.Collapse>

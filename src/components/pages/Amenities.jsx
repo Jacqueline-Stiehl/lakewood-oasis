@@ -194,7 +194,8 @@ p={8}
     <CardBody >
         <Stack mt='6' spacing='3'>
         <Text className="bi">
-        <UnorderedList styleType="none" fontSize="20px">
+        {/* <UnorderedList styleType="none" fontSize="20px"> */}
+        <UnorderedList fontSize="20px">
             {/* <ListItem><ListIcon as={MdCheckCircle} color="#EC7063" fill="currentColor"/>Heated pool</ListItem> */}
             {/* List items below were commented out 11-1-23 to deploy via Netlify */}
             {/* <ListItem color="#154360"><ListIcon as={MdDone} color="#EC7063" fill="currentColor"/>Heated pool</ListItem> */}
@@ -211,6 +212,21 @@ p={8}
             {/* <ListItem color="#154360"><ListIcon as={MdDone} color="#EC7063" fill="currentColor"/>Private primary bath</ListItem> */}
             {/* <ListItem color="#154360"><ListIcon as={MdDone} color="#EC7063" fill="currentColor"/>Queen bed</ListItem> */}
             {/* <ListItem color="#154360"><ListIcon as={MdDone} color="#EC7063" fill="currentColor"/>Twin over full bunk bed</ListItem> */}
+
+            <ListItem color="#154360">Heated pool</ListItem>
+            <ListItem color="#154360"> Hot tub</ListItem>
+            <ListItem color="#154360"></ListItem>
+            <ListItem color="#154360">Outdoor dining set</ListItem>
+            <ListItem color="#154360">Grill</ListItem>
+            <ListItem color="#154360">Fully stocked kitchen (dishes, glasses, coffee cups, pots and pans, toaster, utensils...)</ListItem>
+            <ListItem color="#154360">Smart TVs</ListItem>
+            <ListItem color="#154360">Printer</ListItem>
+            <ListItem color="#154360">Desk/office space</ListItem>
+            <ListItem color="#154360">Garage parking</ListItem>
+            <ListItem color="#154360">King bed</ListItem>
+            <ListItem color="#154360">Private primary bath</ListItem>
+            <ListItem color="#154360">Queen bed</ListItem>
+            <ListItem color="#154360">Twin over full bunk bed</ListItem>
         </UnorderedList>
       </Text>
     </Stack>
