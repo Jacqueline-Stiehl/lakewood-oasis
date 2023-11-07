@@ -2,6 +2,7 @@
 import { React, useState, useEffect } from "react";
 import { Container, Nav } from "react-bootstrap";
 import Modal from "react-modal";
+import mapwithinset from "../assets/images/lakewood-oasis-map-with-inset.png"
 
 const aboutContent = (
   <div>
@@ -15,7 +16,7 @@ const contactContent = (
     <h2>Contact Information</h2>
     <p>If you have any questions, please contact us at:</p>
     <p>Email: sara@gmail.com</p>
-    <p>Phone: (651) 867-5309</p>
+    <p>Phone: (651) 555-5555</p>
   </div>
 );
 
@@ -27,8 +28,9 @@ const mapContent = (
       <img
     //   src="https://www.google.com/maps/d/edit?mid=1gVEizNNN21pg0W-RnTJ1n9cy-fH_fck&ll=33.32015105192812%2C-112.0255193866457&z=14"
     //   src="./src/assets/images/lakewood-oasis-map.png"
-    src="./src/assets/images/lakewood-oasis-map-with-inset.png"
-      //how to resize map image? And move it up on the screen?
+    // src="./src/assets/images/lakewood-oasis-map-with-inset.png"
+    src={mapwithinset}  
+    //how to resize map image? And move it up on the screen?
 
     //   height="450"
     //   width="570"
