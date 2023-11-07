@@ -9,7 +9,8 @@ function Header () {
   const currentPath = location.pathname;
   
     return (
-      <header className="header">  
+      // <header className="header" >  
+      <header className={`header flex justify-between items-center h-24 w-full px-4 md:px-8 lg:px-16 2xl:px-32 py-6 drop-shadow-brand`} >
 
         {/* <Navbar bg="dark" variant="dark" expand="sm"> */}
         <Navbar className="navbar navbar-dark" expand="lg" fixedTop style={{backgroundSize: "0", backgroundColor: "#154360"
