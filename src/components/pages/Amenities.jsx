@@ -9,8 +9,7 @@ import { CardBody, Text, Card, Button} from "@chakra-ui/react";
 // import {faBed} from "@chakra-ui/icons"
 // import { FontAwesomeIcon } from "@chakra-ui/icons";
 // import { FaTwitter, FaLinkedinIn, FaGithub } from 'react-icons/fa';
-import { MdDone } from "react-icons/md"; 
-// commented out 11-1-23 to deploy to Netlify
+// import { MdDone } from "react-icons/md";commented out 11-1-23 to deploy to Netlify
 import {
     Box,
     Grid,
@@ -199,7 +198,7 @@ p={8}
         <UnorderedList fontSize="20px">
             {/* <ListItem><ListIcon as={MdCheckCircle} color="#EC7063" fill="currentColor"/>Heated pool</ListItem> */}
             {/* List items below were commented out 11-1-23 to deploy via Netlify */}
-            <ListItem color="#154360"><ListIcon as={MdDone} color="#EC7063" fill="currentColor"/>Heated pool</ListItem>
+            {/* <ListItem color="#154360"><ListIcon as={MdDone} color="#EC7063" fill="currentColor"/>Heated pool</ListItem> */}
             {/* <ListItem color="#154360"><ListIcon as={MdDone} color="#EC7063" fill="currentColor"/>Hot tub</ListItem> */}
             {/* <ListItem color="#154360"><ListIcon as={MdDone} color="#EC7063" fill="currentColor"/>Lounge chairs</ListItem> */}
             {/* <ListItem color="#154360"><ListIcon as={MdDone} color="#EC7063" fill="currentColor"/>Outdoor dining set</ListItem> */}
