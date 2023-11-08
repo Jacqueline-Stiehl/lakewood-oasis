@@ -215,7 +215,7 @@ p={8}
 
             <ListItem color="#154360">Heated pool</ListItem>
             <ListItem color="#154360"> Hot tub</ListItem>
-            <ListItem color="#154360"></ListItem>
+            <ListItem color="#154360">Lounge chairs</ListItem>
             <ListItem color="#154360">Outdoor dining set</ListItem>
             <ListItem color="#154360">Grill</ListItem>
             <ListItem color="#154360">Fully stocked kitchen (dishes, glasses, coffee cups, pots and pans, toaster, utensils...)</ListItem>
