@@ -680,6 +680,14 @@ h1 {
   .feature-grid .feature-card {
     width: 100%;
   }
+  /* added in 11-9-23 but doesn't seem to do anything */
+  .header-text {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute; */
+    width: 95%;
+  }
 }
 
 .description {

@@ -74,47 +74,29 @@ const CardContainer = () => {
 
 
             return (
+                <>
                 
               <div className="container-card text-center" key={index}>
                 
-                <Card className={`card-22`} maxW="sm" marginBottom={"70px"} >
-                  <>
-                    {/* <img
-                      src={card.img}
-                      alt="flowers"
-                      className="img99"
-                      style={{
-                        position: "absolute",
-                        top: "150%",
-                        left: "50%",
-                        transform: "translate(-50%, -50%)",
-                        maxHeight: "100%",
-                      }} */}
+                {/* below added 11-9-23 */}
+                {/* <Grid className="feature-grid" gap={6} p={8}> */}
+                {/* <Card className={`card-22`} maxW="sm" marginBottom={"70px"} > */}
+                <Card className="feature-card" maxW="sm" marginBottom={"70px"} >
+                  {/* <> */}
+                    
                     {/* /> */}
                     {/* <CardBody className="card-contents" style={{ display: "flex", flexDirection: "column", alignItems: "center" }}> */}
                     <CardBody className="card-contents" style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-                      {/* <h3 style={{ whiteSpace: 'nowrap' }}>{card.title}</h3> */}
                       <h3 style={{ whiteSpace: 'nowrap' }}></h3>
                       <Text className="descr">{card.description}</Text>
-                      {/* <Link to={paths[index]}>
-                        <Button className={`dashbutton-${card.buttonColor}`} colorScheme={card.buttonColor}>
-                          {card.title}
-                        </Button>
-                      </Link> */}
                     </CardBody>
-                  </>
+                  {/* </> */}
                 </Card>
-                {/* <Link to={paths[index]}> */}
-                        {/* <Button  */}
-                        {/* // className={`dashbutton-${card.buttonColor}`}  */}
-                        {/* // colorScheme={card.buttonColor} */}
-                        {/* > */}
-                          {/* View more amenities{card.title} */}
-                        {/* </Button> */}
-                      {/* </Link> */}
               <br />
+              {/* </Grid> */}
               </div>
               
+              </>
               
             );
           })}
