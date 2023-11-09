@@ -87,6 +87,13 @@ body,
   }
 }
 
+/* added in 11-9-23 */
+@media screen and (max-width: 1200px) {
+  .logo-text {
+    display: none;
+  }
+}
+
 @media (max-width: 700px) {
   .timeline-content {
     margin-top: -80px;
@@ -650,4 +657,32 @@ h1 {
 
 .read-the-docs {
   color: #888;
+}
+
+/* added 11-9-23 */
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+@media screen and (max-width: 800px) {
+  .feature-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .feature-grid {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+  .feature-grid .feature-card {
+    width: 100%;
+  }
+}
+
+.description {
+  width: 90%;
+  margin: 0 auto;
 }

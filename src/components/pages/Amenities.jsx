@@ -85,11 +85,15 @@ const Amenities = () => {
             return (
                 <>
 <div className="fav-content">
-<Grid templateColumns="repeat(3, 1fr)" gap={6} 
+{/* <Grid templateColumns="repeat(3, 1fr)" gap={6}  */}
+{/* below added 11-9-23 */}
+<Grid className="feature-grid" gap={6}
 p={8}
 >
 
-<Card maxW='md'>
+{/* <Card maxW='md'> */}
+{/* below added 11-9-23 */}
+<Card className="feature-card">
   <CardBody>
     <Stack 
     mt='6' 
@@ -104,7 +108,9 @@ p={8}
   </CardBody>
 </Card>
 
-<Card maxW='md'>
+{/* <Card maxW='md'> */}
+{/* below added 11-9-23 */}
+<Card className="feature-card">
   <CardBody>
     <Stack mt='6' spacing='3'>
      
@@ -116,7 +122,9 @@ p={8}
   </CardBody>
 </Card>
 
-<Card maxW='md'>
+{/* <Card maxW='md'> */}
+{/* below added 11-9-23 */}
+<Card className="feature-card">
   <CardBody>
     
     <Stack mt='6' spacing='3'>
@@ -131,7 +139,9 @@ p={8}
   </CardBody>
 </Card>
 
-<Card maxW='md'>
+{/* <Card maxW='md'> */}
+{/* below added 11-9-23 */}
+<Card className="feature-card">
   <CardBody>
     
     <Stack mt='6' spacing='3'>
@@ -144,7 +154,9 @@ p={8}
   </CardBody>
 </Card>
 
-<Card maxW='md'>
+{/* <Card maxW='md'> */}
+{/* below added 11-9-23 */}
+<Card className="feature-card">
   <CardBody>
     
     <Stack mt='6' spacing='3'>
@@ -157,7 +169,9 @@ p={8}
   </CardBody>
 </Card>
 
-<Card maxW='md'>
+{/* <Card maxW='md'> */}
+{/* below added 11-9-23 */}
+<Card className="feature-card">
   <CardBody>
     
     <Stack mt='6' spacing='3'>
