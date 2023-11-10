@@ -5,7 +5,7 @@ import { HStack, VStack, Stack } from "@chakra-ui/react";
 import Lake from "../assets/images/lake.jpg"
 import Pool from "../assets/images/pool.jpg"
 // import Restaurants from "../assets/images/restaurant.jpg"
-import { CardBody, Text, Card, Button} from "@chakra-ui/react";
+import { CardBody, Text, Card, Button, Grid} from "@chakra-ui/react";
 // import "../styles/global.css";
 import { useNavigate } from "react-router-dom";
 
@@ -54,69 +54,104 @@ const CardContainer = () => {
 
   return (
     <>
-    <div className="container-center">
+      
+      <div className="photo-bg">
+        <h1>Property Features</h1>
+          {/* <CardContainer className="cardcont"/> */}
+      </div>
+      <div className="container-center">
         
       {/* Conditional rendering based on screen width */}
       {isSmallScreen ? (
         <VStack spacing={4}>
           {cards.map((card, index) => (
             <div className="container-card" key={index}>
-              {/* <Button className={`dashbutton-${card.buttonColor}`} colorScheme={card.buttonColor}>
-                {card.title}
-              </Button> */}
+              
             </div>
           ))}
         </VStack>
       ) : (
-        <HStack spacing={4}>
-          {cards.map((card, index) => {
-            const paths = ['/home', '/amenities', '/home'];
+        <Stack direction={"row"} spacing={4}>
+          {/* {cards.map((card, index) => { */}
+            // const paths = ['/home', '/amenities', '/home'];
 
 
             return (
                 <>
-                
-              <div className="container-card text-center" key={index}>
-                
-                {/* below added 11-9-23 */}
-                {/* <Grid className="feature-grid" gap={6} p={8}> */}
-                {/* <Card className={`card-22`} maxW="sm" marginBottom={"70px"} > */}
-                <Card className="feature-card" maxW="sm" marginBottom={"70px"} >
-                  {/* <> */}
-                    
-                    {/* /> */}
-                    {/* <CardBody className="card-contents" style={{ display: "flex", flexDirection: "column", alignItems: "center" }}> */}
-                    <CardBody className="card-contents" style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-                      <h3 style={{ whiteSpace: 'nowrap' }}></h3>
-                      <Text className="descr">{card.description}</Text>
-                    </CardBody>
-                  {/* </> */}
-                </Card>
-              <br />
-              {/* </Grid> */}
-              </div>
-              
+<div className="fav-content">
+{/* <Grid templateColumns="repeat(3, 1fr)" gap={6}  */}
+{/* below added 11-9-23 */}
+<Grid className="feature-grid" gap={6}
+p={8}
+>
+
+{/* <Card maxW='md'> */}
+{/* below added 11-9-23 */}
+<Card className="feature-card">
+  <CardBody>
+    <Stack 
+    mt='6' 
+    spacing='3'
+    >
+      <Text 
+    //   className="bi"
+      >
+      <span><svg xmlns="http://www.w3.org/2000/svg" color="#EC7063" width="75" height="75" fill="currentColor" class="bi bi-person-walking" viewBox="0 0 576 512"><path d="M269.5 69.9c11.1-7.9 25.9-7.9 37 0C329 85.4 356.5 96 384 96c26.9 0 55.4-10.8 77.4-26.1l0 0c11.9-8.5 28.1-7.8 39.2 1.7c14.4 11.9 32.5 21 50.6 25.2c17.2 4 27.9 21.2 23.9 38.4s-21.2 27.9-38.4 23.9c-24.5-5.7-44.9-16.5-58.2-25C449.5 149.7 417 160 384 160c-31.9 0-60.6-9.9-80.4-18.9c-5.8-2.7-11.1-5.3-15.6-7.7c-4.5 2.4-9.7 5.1-15.6 7.7c-19.8 9-48.5 18.9-80.4 18.9c-33 0-65.5-10.3-94.5-25.8c-13.4 8.4-33.7 19.3-58.2 25c-17.2 4-34.4-6.7-38.4-23.9s6.7-34.4 23.9-38.4C42.8 92.6 61 83.5 75.3 71.6c11.1-9.5 27.3-10.1 39.2-1.7l0 0C136.7 85.2 165.1 96 192 96c27.5 0 55-10.6 77.5-26.1zm37 288C329 373.4 356.5 384 384 384c26.9 0 55.4-10.8 77.4-26.1l0 0c11.9-8.5 28.1-7.8 39.2 1.7c14.4 11.9 32.5 21 50.6 25.2c17.2 4 27.9 21.2 23.9 38.4s-21.2 27.9-38.4 23.9c-24.5-5.7-44.9-16.5-58.2-25C449.5 437.7 417 448 384 448c-31.9 0-60.6-9.9-80.4-18.9c-5.8-2.7-11.1-5.3-15.6-7.7c-4.5 2.4-9.7 5.1-15.6 7.7c-19.8 9-48.5 18.9-80.4 18.9c-33 0-65.5-10.3-94.5-25.8c-13.4 8.4-33.7 19.3-58.2 25c-17.2 4-34.4-6.7-38.4-23.9s6.7-34.4 23.9-38.4c18.1-4.2 36.2-13.3 50.6-25.2c11.1-9.4 27.3-10.1 39.2-1.7l0 0C136.7 373.2 165.1 384 192 384c27.5 0 55-10.6 77.5-26.1c11.1-7.9 25.9-7.9 37 0zm0-144C329 229.4 356.5 240 384 240c26.9 0 55.4-10.8 77.4-26.1l0 0c11.9-8.5 28.1-7.8 39.2 1.7c14.4 11.9 32.5 21 50.6 25.2c17.2 4 27.9 21.2 23.9 38.4s-21.2 27.9-38.4 23.9c-24.5-5.7-44.9-16.5-58.2-25C449.5 293.7 417 304 384 304c-31.9 0-60.6-9.9-80.4-18.9c-5.8-2.7-11.1-5.3-15.6-7.7c-4.5 2.4-9.7 5.1-15.6 7.7c-19.8 9-48.5 18.9-80.4 18.9c-33 0-65.5-10.3-94.5-25.8c-13.4 8.4-33.7 19.3-58.2 25c-17.2 4-34.4-6.7-38.4-23.9s6.7-34.4 23.9-38.4c18.1-4.2 36.2-13.3 50.6-25.2c11.1-9.5 27.3-10.1 39.2-1.7l0 0C136.7 229.2 165.1 240 192 240c27.5 0 55-10.6 77.5-26.1c11.1-7.9 25.9-7.9 37 0z"/></svg>2 minute walk to twin lakes with walking trails</span>
+      </Text>
+    </Stack>
+  </CardBody>
+</Card>
+
+{/* <Card maxW='md'> */}
+{/* below added 11-9-23 */}
+<Card className="feature-card">
+  <CardBody>
+    <Stack mt='6' spacing='3'>
+     
+      <Text className="bi">
+      <span><svg xmlns="http://www.w3.org/2000/svg" color="#EC7063" width="75" height="75" fill="currentColor" class="bi bi-person-walking" viewBox="0 0 576 512"><path d="M309.5 178.4L447.9 297.1c-1.6 .9-3.2 2-4.8 3c-18 12.4-40.1 20.3-59.2 20.3c-19.6 0-40.8-7.7-59.2-20.3c-22.1-15.5-51.6-15.5-73.7 0c-17.1 11.8-38 20.3-59.2 20.3c-10.1 0-21.1-2.2-31.9-6.2C163.1 193.2 262.2 96 384 96h64c17.7 0 32 14.3 32 32s-14.3 32-32 32H384c-26.9 0-52.3 6.6-74.5 18.4zM160 160A64 64 0 1 1 32 160a64 64 0 1 1 128 0zM306.5 325.9C329 341.4 356.5 352 384 352c26.9 0 55.4-10.8 77.4-26.1l0 0c11.9-8.5 28.1-7.8 39.2 1.7c14.4 11.9 32.5 21 50.6 25.2c17.2 4 27.9 21.2 23.9 38.4s-21.2 27.9-38.4 23.9c-24.5-5.7-44.9-16.5-58.2-25C449.5 405.7 417 416 384 416c-31.9 0-60.6-9.9-80.4-18.9c-5.8-2.7-11.1-5.3-15.6-7.7c-4.5 2.4-9.7 5.1-15.6 7.7c-19.8 9-48.5 18.9-80.4 18.9c-33 0-65.5-10.3-94.5-25.8c-13.4 8.4-33.7 19.3-58.2 25c-17.2 4-34.4-6.7-38.4-23.9s6.7-34.4 23.9-38.4c18.1-4.2 36.2-13.3 50.6-25.2c11.1-9.4 27.3-10.1 39.2-1.7l0 0C136.7 341.2 165.1 352 192 352c27.5 0 55-10.6 77.5-26.1c11.1-7.9 25.9-7.9 37 0z"/></svg>Hot tub and pool located on property</span>
+      </Text>
+      
+    </Stack>
+  </CardBody>
+</Card>
+
+{/* <Card maxW='md'> */}
+{/* below added 11-9-23 */}
+<Card className="feature-card">
+  <CardBody>
+    
+    <Stack mt='6' spacing='3'>
+      
+      <Text className="bi">
+      <span><svg xmlns="http://www.w3.org/2000/svg" color="#EC7063" width="75" height="75" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+    <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+  </svg> Close to restaurants, shopping, and groceries</span>
+      </Text>
+      
+    </Stack>
+  </CardBody>
+</Card>
+        
+</Grid>  
+</div>         
               </>
               
             );
-          })}
-          
-          
-      
-        </HStack>
+        </Stack>
       )}
-      
-      
     </div>
+    <Stack>
     <div>
     <VStack>
-    {/* <br /> */}
+    <br />
   <Button onClick={handleClick} backgroundColor="#EC7063" marginBottom="50px" marginTop="-150px">
     View more amenities
   </Button>
-  {/* <br /> */}
+  <br />
   </VStack>
   </div>
+  </Stack>
   </>
   );
 };

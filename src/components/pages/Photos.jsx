@@ -587,8 +587,9 @@ function Photos() {
     </Card>
     {/* <Card>
         <Stack> */}
-        <h1>Property Features</h1>
-    <CardContainer className="cardcont"/>
+        {/* <h1>Property Features</h1> */}
+    {/* <CardContainer className="cardcont"/> */}
+    <CardContainer className="feature-card"/>
     {/* <Map/> */}
     
     {/* </Stack>
