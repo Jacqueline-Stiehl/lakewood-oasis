@@ -39,8 +39,8 @@ function Header () {
                   {currentPath !== "/calendar" && (
                     <Nav.Link href="/calendar" className="navlink4">Calendar</Nav.Link>
                   )}
-                  {/* {currentPath !== "/Messages" && (
-                    <Nav.Link href="/Messages" className="navlink3">Messages</Nav.Link>)} */}
+                  {currentPath !== "/contact" && (
+                    <Nav.Link href="/contact" className="navlink3">Contact</Nav.Link>)}
                 </>
                </Nav>
               </Navbar.Collapse>

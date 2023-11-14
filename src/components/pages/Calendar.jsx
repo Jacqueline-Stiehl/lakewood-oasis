@@ -7,18 +7,9 @@ import { HStack, VStack, Stack } from "@chakra-ui/react";
 import { CardBody, Text, Card, Button} from "@chakra-ui/react";
 // import { MdCheckCircle, MdDone } from "react-icons/md";--commented out for Netlify deployment 10-31-23
 import {
-    Box,
     Grid,
-    Image,
-    Heading,
-    Divider,
-    CardFooter,
-    ButtonGroup,
-    SimpleGrid,
     ListItem,
-    ListIcon,
     UnorderedList,
-    List,
   } from "@chakra-ui/react";
 
 const Calendar = () => {
