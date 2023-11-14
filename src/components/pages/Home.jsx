@@ -28,6 +28,7 @@ const Home = () => {
             backgroundImage: `url(${Background})`,
             backgroundSize: 'cover',
             width: '100%',
+            maxWidth: "100%",
             height: '100vh',
           }}
         ></div>

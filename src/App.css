@@ -16,6 +16,10 @@ body,
   flex-direction: column;
 } */
 
+main {
+  width: 100%;
+}
+
 @media screen and (max-width: 1278px) {
   .header-text {
     font-size: 28px;
