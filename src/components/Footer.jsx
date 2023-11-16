@@ -1,7 +1,6 @@
 import { React, useState } from "react";
 import { Container, Nav } from "react-bootstrap";
 import Modal from "react-modal";
-import mapwithinset from "../assets/images/lakewood-oasis-map-with-inset.png"
 import { useNavigate } from "react-router-dom";
 
 const AboutModal = ({ isOpen, onClose, aboutContent }) => {
@@ -115,10 +114,8 @@ const Footer = () => {
     <footer className="footer" style={{ borderTop: "1px solid #333" }}>
       <Container fluid >
           <div className="footer-content">
-            <div className="footer-links">
-              
+            {/* <div className="collapse navbar-collapse"> */}
               <Nav className="d-flex flex-row">
-                {/* <Nav.Link href="/" >Home</Nav.Link> */}
                 <Nav.Link 
                 onClick={openAmenities}
                     >Amenities
@@ -136,10 +133,10 @@ const Footer = () => {
                     >Contact
                 </Nav.Link>
               </Nav>
-            </div>
-          <div className="footer-info text-center">
-            <span className="faded-text">&copy; Lakewood Oasis 2023</span>
+          <div className="footer-content">
+            <span>&copy; Lakewood Oasis 2023</span>
           </div>
+          {/* </div> */}
         </div>
       </Container>
       <AboutModal isOpen={isAboutModalOpen} onClose={closeAboutModal} aboutContent={aboutModalContent} />
