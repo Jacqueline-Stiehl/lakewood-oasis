@@ -145,7 +145,7 @@ p={8}
     <div>
     <VStack>
     <br />
-  <Button onClick={handleClick} backgroundColor="#EC7063" marginBottom="50px" marginTop="-150px">
+  <Button onClick={handleClick} backgroundColor="#EC7063" marginBottom="50px" >
     View more amenities
   </Button>
   <br />

@@ -34,6 +34,7 @@ function Description () {
             direction={{ base: 'column', xl: 'row' }}
             overflow='hidden'
             variant='outline'
+            marginBottom="20px"
             >
         <Image 
             objectFit='cover'
@@ -46,7 +47,6 @@ function Description () {
             borderRadius="lg"
             w={{ sm: '100%', md: '540px' }}
             // height={{ sm: '476px', md: '20rem' }}
-            
             >
         <CardBody >
             <Heading py="1" size='md'>The perfect vacation home</Heading>
@@ -60,19 +60,26 @@ function Description () {
         </Card>
     </Center>
 
-    <Center py={6}>
+    <Center py={0}>
         <Card className="border border-dark"
-            direction={{ base: 'column', sm: 'row' }}
+            direction={{ base: 'column', xl: 'row' }}
             overflow='hidden'
             variant='outline'
+            marginBottom="20px"
             >
-<Stack 
+        <Image 
+            objectFit='cover'
+            maxW={{ base: '100%', md: '600px', xl: "800px" }}
+            src={pic34}
+            alt='Backyard pool and hot tub'
+            />
+        <Stack 
             borderRadius="lg"
             w={{ sm: '100%', md: '540px' }}
-            height={{ sm: '476px', md: '20rem' }}
+            // height={{ sm: '476px', md: '20rem' }}
             >
-<CardBody >
-            <Heading pt="20" size='md'>An oasis in the desert</Heading>
+        <CardBody >
+            <Heading pt="1" size='md'>An oasis in the desert</Heading>
             <Flex spacing='4'>
             <Flex flex='1' gap='4' alignItems='center' flexWrap='wrap'>
             <Text py='1'>The backyard offers a glistening pool that invites you to take a dip and the hot tub stands ready for relaxation. The lounge chairs and sitting area make this the perfect space to enjoy a sunny day in the desert!</Text>
@@ -80,35 +87,29 @@ function Description () {
             </Flex>
         </CardBody>
         </Stack>
-
-        <Image 
-            objectFit='cover'
-            maxW={{ base: '100%', sm: '600px' }}
-            src={pic34}
-            alt='Backyard pool and hot tub'
-            />
         </Card>
     </Center>
 
-    <Center py={6}>
+    <Center py={0}>
         <Card className="border border-dark"
-            direction={{ base: 'column', sm: 'row' }}
+            direction={{ base: 'column', xl: 'row' }}
             overflow='hidden'
             variant='outline'
+            marginBottom="20px"
             >
         <Image 
             objectFit='cover'
-            maxW={{ base: '100%', sm: '600px' }}
+            maxW={{ base: '100%', md: '600px', xl: "800px" }}
             src={map2}
             alt='map of area surrounding Lakewood Oasis'
             />
-
         <Stack 
             borderRadius="lg"
             w={{ sm: '100%', md: '540px' }}
-            height={{ sm: '476px', md: '20rem' }}>
+            // height={{ sm: '476px', md: '20rem' }}
+            >
         <CardBody >
-            <Heading pt="20" size='md'>The ideal location</Heading>
+            <Heading pt="1" size='md'>The ideal location</Heading>
             <Flex spacing='4'>
             <Flex flex='1' gap='4' alignItems='center' flexWrap='wrap'>
             <Text py='1'>Located near restaurants and shopping, golf and hiking, you will find plenty to do. Looking to explore beyond Ahwatukee? Just hop on the 202 or Hwy 10 and you can be anywhere in minutes!</Text>
