@@ -51,24 +51,6 @@ main {
   max-width: 100%;
 }
 
-/* @media screen and (max-width: 1278px) {
-  .header-text {
-    font-size: 28px;
-  }
-}
-
-@media screen and (max-width: 1145px) {
-  .header-text {
-    font-size: 20px;
-  }
-}
-
-@media screen and (max-width: 700px) {
-  .header-text {
-    display: none;
-  }
-} */
-
 @media (max-width: 936px) {
   .timeline-content {
     margin-top: -100px;
@@ -286,7 +268,13 @@ main {
 
 @media (max-width: 574px) {
   .footer-content .nav {
-    gap: 30px;
+    display: flex;
+    justify-content: center;
+    row-gap: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
   }
 }
 
@@ -494,7 +482,7 @@ h1 {
   display: flex;
   width: 100%;
   justify-content: center;
-  gap: 100px;
+  /* gap: 100px; */
 }
 
 .footer-content a {

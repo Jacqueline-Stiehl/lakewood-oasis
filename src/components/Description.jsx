@@ -28,15 +28,16 @@ function Description () {
   
     return (
       <>
-    <Center py={6}>
+    <Center py={0}>
         <Card className="border border-dark"
-            direction={{ base: 'column', sm: 'row' }}
+        // change direction size (was sm)
+            direction={{ base: 'column', xl: 'row' }}
             overflow='hidden'
             variant='outline'
             >
         <Image 
             objectFit='cover'
-            maxW={{ base: '100%', sm: '600px' }}
+            maxW={{ base: '100%', md: "600px", xl: "800px" }}
             src={pic1} fluid
             alt='front of Lakewood Oasis'
             />
@@ -44,7 +45,7 @@ function Description () {
         <Stack 
             borderRadius="lg"
             w={{ sm: '100%', md: '540px' }}
-            height={{ sm: '476px', md: '20rem' }}
+            // height={{ sm: '476px', md: '20rem' }}
             
             >
         <CardBody >

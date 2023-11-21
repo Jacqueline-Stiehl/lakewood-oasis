@@ -62,7 +62,7 @@ const CardContainer = () => {
       <div className="container-center">
         
       {/* Conditional rendering based on screen width */}
-      {isSmallScreen ? (
+      {/* {isSmallScreen ? (
         <VStack spacing={4}>
           {cards.map((card, index) => (
             <div className="container-card" key={index}>
@@ -70,7 +70,7 @@ const CardContainer = () => {
             </div>
           ))}
         </VStack>
-      ) : (
+      ) : ( */}
         <Stack direction={"row"} spacing={4}>
           {/* {cards.map((card, index) => { */}
             // const paths = ['/home', '/amenities', '/home'];
@@ -139,7 +139,7 @@ p={8}
               
             );
         </Stack>
-      )}
+      {/* )} */}
     </div>
     <Stack>
     <div>
