@@ -209,7 +209,7 @@ p={8}
         <Stack mt='6' spacing='3'>
         <Text className="bi">
         {/* <UnorderedList styleType="none" fontSize="20px"> */}
-        <UnorderedList fontSize="20px">
+        <UnorderedList fontSize="20px" fontFamily="Lora">
             {/* <ListItem><ListIcon as={MdCheckCircle} color="#EC7063" fill="currentColor"/>Heated pool</ListItem> */}
             {/* List items below were commented out 11-1-23 to deploy via Netlify */}
             {/* <ListItem color="#154360"><ListIcon as={MdDone} color="#EC7063" fill="currentColor"/>Heated pool</ListItem> */}

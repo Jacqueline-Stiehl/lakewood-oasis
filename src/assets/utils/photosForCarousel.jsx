@@ -48,7 +48,7 @@ import pic49 from "../images/LakewoodOasis-49.jpg";
 
 const carouselPhotos = [
     {
-        image: {pic1},
+        image: pic1,
         alt: "front of house",
         captionTitle: "First slide label",
         captionDescription: "Nulla vitae elit libero, a pharetra augue mollis interdum.",

@@ -49,10 +49,10 @@ function Description () {
             // height={{ sm: '476px', md: '20rem' }}
             >
         <CardBody >
-            <Heading py="1" size='md'>The perfect vacation home</Heading>
+            <Heading py="1" size='md' fontFamily="Lora">The perfect vacation home</Heading>
             <Flex spacing='4' >
             <Flex flex='1' gap='4' alignItems='center' flexWrap='wrap' >
-            <Text py='1' >Lakewood Oasis offers more than just a place to stay. Enjoy nearby shopping, dining, and entertainment options, and take a stroll through this friendly neighborhood. Lakewood Oasis is a three-bedroom, two and half-bath, two-level home with a private heated pool and spa. After a day of exploring nearby hiking trails or golf courses, the cozy family room is the perfect place to relax. The kitchen is stocked with everything you need to cook your favorite meals...or to bake a frozen pizza! Upstairs the primary bedroom offers a king bed with a walk in closet and ensuite. The other two bedrooms offer a queen bed and a bunk bed (twin over full) respectively. Whether travelling with friends or as a family, we have room for everyone!</Text>
+            <Text py='1' fontFamily="Lora">Lakewood Oasis offers more than just a place to stay. Enjoy nearby shopping, dining, and entertainment options, and take a stroll through this friendly neighborhood. Lakewood Oasis is a three-bedroom, two and half-bath, two-level home with a private heated pool and spa. After a day of exploring nearby hiking trails or golf courses, the cozy family room is the perfect place to relax. The kitchen is stocked with everything you need to cook your favorite meals...or to bake a frozen pizza! Upstairs the primary bedroom offers a king bed with a walk in closet and ensuite. The other two bedrooms offer a queen bed and a bunk bed (twin over full) respectively. Whether travelling with friends or as a family, we have room for everyone!</Text>
             </Flex>
             </Flex>
         </CardBody>
@@ -79,10 +79,10 @@ function Description () {
             // height={{ sm: '476px', md: '20rem' }}
             >
         <CardBody >
-            <Heading pt="1" size='md'>An oasis in the desert</Heading>
+            <Heading pt="1" size='md' fontFamily="Lora">An oasis in the desert</Heading>
             <Flex spacing='4'>
             <Flex flex='1' gap='4' alignItems='center' flexWrap='wrap'>
-            <Text py='1'>The backyard offers a glistening pool that invites you to take a dip and the hot tub stands ready for relaxation. The lounge chairs and sitting area make this the perfect space to enjoy a sunny day in the desert!</Text>
+            <Text py='1' fontFamily="Lora">The backyard offers a glistening pool that invites you to take a dip and the hot tub stands ready for relaxation. The lounge chairs and sitting area make this the perfect space to enjoy a sunny day in the desert!</Text>
             </Flex>
             </Flex>
         </CardBody>
@@ -109,10 +109,10 @@ function Description () {
             // height={{ sm: '476px', md: '20rem' }}
             >
         <CardBody >
-            <Heading pt="1" size='md'>The ideal location</Heading>
+            <Heading pt="1" size='md' fontFamily="Lora">The ideal location</Heading>
             <Flex spacing='4'>
             <Flex flex='1' gap='4' alignItems='center' flexWrap='wrap'>
-            <Text py='1'>Located near restaurants and shopping, golf and hiking, you will find plenty to do. Looking to explore beyond Ahwatukee? Just hop on the 202 or Hwy 10 and you can be anywhere in minutes!</Text>
+            <Text py='1' fontFamily="Lora">Located near restaurants and shopping, golf and hiking, you will find plenty to do. Looking to explore beyond Ahwatukee? Just hop on the 202 or Hwy 10 and you can be anywhere in minutes!</Text>
             </Flex>
             </Flex>
         </CardBody>
@@ -120,7 +120,7 @@ function Description () {
         </Card>
     </Center>
     <VStack>
-    <Button onClick={handleClick} backgroundColor="#EC7063" marginBottom="50px" >
+    <Button onClick={handleClick} backgroundColor="#EC7063" marginBottom="50px" fontFamily="Lora">
     View more photos
   </Button>
   </VStack>

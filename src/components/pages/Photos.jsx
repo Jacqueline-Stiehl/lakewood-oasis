@@ -1,8 +1,10 @@
 import carouselPhotos from "../../assets/utils/photosForCarousel";
 import Carousel from 'react-bootstrap/Carousel';
+// import Stack from '@chakra-ui/react';
 
 function Photos() {
 return (
+  <>
   <Carousel fade pause="hover" data-bs-theme="dark">
     {carouselPhotos.map((photo, index) => (
       <Carousel.Item>
@@ -18,6 +20,13 @@ return (
       </Carousel.Item>
     ))}
   </Carousel>
+  {/* <Card> */}
+{/* <Stack> */}
+{/* <CardContainer className="feature-card"/> */}
+{/* </Stack> */}
+{/* </Card>  */}
+
+  </>
 )
     }
 

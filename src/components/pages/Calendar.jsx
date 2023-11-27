@@ -67,7 +67,7 @@ const Calendar = () => {
         <Stack mt='6' spacing='3'>
         <Text className="bi">
         {/* <UnorderedList styleType="none" fontSize="20px"> */}
-        <UnorderedList fontSize="20px">
+        <UnorderedList fontSize="20px" fontFamily="Lora">
           {/* the below lines were commented out on 10-31-23 for Netlify deployment */}
             {/* <ListItem><ListIcon as={MdCheckCircle} color="#EC7063" fill="currentColor"/>Heated pool</ListItem> */}
             {/* <ListItem color="#154360"><ListIcon as={MdDone} color="#EC7063" fill="currentColor"/>Guests can pay by cashier's check or Venmo</ListItem> */}
