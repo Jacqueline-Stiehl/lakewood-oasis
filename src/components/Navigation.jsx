@@ -37,6 +37,7 @@ useEffect(() => {
             <Nav.Link onClick={() => props.handlePageChange('Photos')} href="#" eventKey="link-1">Photos</Nav.Link>
             <Nav.Link onClick={() => props.handlePageChange('Amenities')} href="#" eventKey="link-2">Amenities</Nav.Link>
             <Nav.Link onClick={() => props.handlePageChange('Calendar')} href="#" eventKey="link-3">Calendar</Nav.Link>
+            <Nav.Link onClick={() => props.handlePageChange('Contact')} href="#" eventKey="link-4">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
