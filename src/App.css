@@ -626,6 +626,7 @@ h1 {
   font-size: 20px;
   text-align: center;
   list-style-type: none;
+  font-family: "Lora", serif;
 }
 
 .contactBorder {
@@ -633,16 +634,31 @@ h1 {
   color: #154360;
   border-radius: 5px;
   border-width: 5px 5px;
+  /* margin-left: auto;
+  margin-right: auto; */
   /* width: "50%"; */
   padding: 25px;
   box-sizing: content-box;
   /* display: grid;
   justify-content: center;
   align-items: center; */
+  /* position: relative; */
+  /* display: flex; */
+  /* justify-content: center;
+  align-items: center; */
+  /* display: grid;
+  grid-template-columns: repeat(3, 1fr); */
 }
 
 h2 {
   text-align: center;
   font-size: 40px;
   color: #154360;
+}
+
+#box {
+  width: 350px;
+  height: 150px;
+  margin: auto;
+  margin-bottom: 50px;
 }

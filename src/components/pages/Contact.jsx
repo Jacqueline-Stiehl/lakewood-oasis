@@ -1,7 +1,9 @@
 import '../../../src/App.css';
 import React from "react";
 import mapwithinset from "../../assets/images/lakewood-oasis-map-with-inset.png"
-import Card from "@chakra-ui/react";
+// import Card from "@chakra-ui/react";
+
+const boxElement = document.getElementById("box")
 
 const Contact = () => {
 
@@ -12,7 +14,7 @@ const Contact = () => {
         {/* <Card variant="outline" maxW="xl" marginLeft="auto" marginRight="auto" marginBottom="50px"> */}
         {/* <CardBody> */}
         {/* <Stack mt='6' spacing='3'> */}
-        <div className="contactBorder">
+        <div className="contactBorder" id="box">
           <p className="contactInfo">If you have questions or want to make a reservation, please contact us at:</p>
           <ul className="contactInfo">
             <li>
