@@ -1,6 +1,7 @@
 import carouselPhotos from "../../assets/utils/photosForCarousel";
 import Carousel from 'react-bootstrap/Carousel';
-// import Stack from '@chakra-ui/react';
+import CardContainer from "../CardContainer";
+import {Stack, Card} from '@chakra-ui/react';
 
 function Photos() {
 return (
@@ -20,11 +21,17 @@ return (
       </Carousel.Item>
     ))}
   </Carousel>
-  {/* <Card> */}
-{/* <Stack> */}
-{/* <CardContainer className="feature-card"/> */}
-{/* </Stack> */}
-{/* </Card>  */}
+  
+  <div>
+  <Card>
+<Stack>
+<CardContainer className="feature-card"/>
+</Stack>
+</Card> 
+</div>
+{/* <div>
+  <CardContainer className="feature-card"/>
+</div> */}
 
   </>
 )

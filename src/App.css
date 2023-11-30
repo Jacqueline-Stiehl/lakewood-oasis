@@ -507,7 +507,12 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 9%;
+  /* margin-bottom: 9%; */
+  /* margin-top: 9%; */
+}
+
+.title-margin {
+  margin-top: 20%;
 }
 
 .carousel-navigation.left {
@@ -662,3 +667,13 @@ h2 {
   margin: auto;
   margin-bottom: 50px;
 }
+
+.title-margin {
+  margin-top: 20%;
+}
+
+/* .topMarginSpacing { */
+/* margin: auto; */
+/* margin-top: -70px !important; */
+/* margin-top: auto; */
+/* } */

@@ -56,7 +56,7 @@ const CardContainer = () => {
     <>
       
       <div className="photo-bg">
-        <h1>Property Features</h1>
+        <h1 className="title-margin">Property Features</h1>
           {/* <CardContainer className="cardcont"/> */}
       </div>
       <div className="container-center">
