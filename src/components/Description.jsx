@@ -23,8 +23,9 @@ function Description () {
     const navigate = useNavigate();
 
     function handleClick(event) {
-        navigate("/photos");
-      }
+      navigate("/photos");
+      window.scrollTo({top: 0, behavior: 'instant'});
+    }
   
     return (
       <>
