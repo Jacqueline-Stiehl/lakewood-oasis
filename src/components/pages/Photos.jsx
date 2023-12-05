@@ -6,7 +6,7 @@ import {Stack, Card} from '@chakra-ui/react';
 function Photos() {
 return (
   <>
-  <Carousel fade pause="hover" data-bs-theme="dark">
+  <Carousel fade pause="hover" data-bs-theme="dark" controls={false} indicators={false}>
     {carouselPhotos.map((photo, index) => (
       <Carousel.Item>
         <img
