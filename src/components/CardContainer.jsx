@@ -50,6 +50,7 @@ const CardContainer = () => {
 
   function handleClick(event) {
     navigate("/amenities");
+    window.scrollTo({top: 0, behavior: "instant"});
   }
 
   return (

@@ -24,6 +24,7 @@ function Description () {
 
     function handleClick(event) {
         navigate("/photos");
+        window.scrollTo({top: 0, behavior: "instant"});
       }
   
     return (
