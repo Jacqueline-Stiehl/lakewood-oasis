@@ -18,10 +18,10 @@ const Contact = () => {
           <p className="contactInfo">If you have questions or want to make a reservation, please contact us at:</p>
           <ul className="contactInfo">
             <li>
-                Email: sara@gmail.com
+                Email: foothillssanctuary@gmail.com
             </li>
             <li>
-                Phone: 651-555-5555
+                Phone: 612-280-7983
             </li>
           </ul>
           </div>

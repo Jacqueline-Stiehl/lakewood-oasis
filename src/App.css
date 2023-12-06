@@ -435,16 +435,18 @@ h1 {
 }
 
 /* below to are from here: https://stackoverflow.com/questions/20207487/bootstrap-3-default-carousel-how-to-move-indicators-down-and-outside-of-slide-c */
-.carousel-indicators {
+/* .carousel-indicators {
   bottom: -175px;
-}
+} */
 
 .carousel-control-prev {
-  bottom: -160%;
+  /* bottom: -160%; */
+  top: 220px;
 }
 
 .carousel-control-next {
-  bottom: -160%;
+  /* bottom: -160%; */
+  top: 220px;
 }
 
 .d-block {
