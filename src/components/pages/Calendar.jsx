@@ -32,6 +32,10 @@ const Calendar = () => {
     <div>
       <div className="photo-bg centerCalendar">
         <h1>Calendar</h1>
+        <div>
+
+        <iframe className="centerCalendar" src="https://calendar.google.com/calendar/embed?height=300&wkst=1&bgcolor=%234285F4&ctz=America%2FChicago&showCalendars=0&showTitle=0&showPrint=0&showTz=0&showTabs=0&src=Zm9vdGhpbGxzc2FuY3R1YXJ5QGdtYWlsLmNvbQ&color=%23039BE5" style={{color:777}} width={400} height={300}></iframe>
+        </div>
           <p>Please contact us to book your dates.</p>
       </div>
       <div className="container-center">
