@@ -35,7 +35,7 @@ const Calendar = () => {
         <p>Please contact us to book your dates.</p>
         <div align="center">
 
-        <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%234285F4&ctz=America%2FChicago&showCalendars=0&showTitle=0&showPrint=0&showTz=0&showTabs=0&src=Zm9vdGhpbGxzc2FuY3R1YXJ5QGdtYWlsLmNvbQ&color=%23039BE5" style={{color:777}} width="800" height="600"></iframe>
+        <iframe src="https://calendar.google.com/calendar/embed?height=300&wkst=1&bgcolor=%234285F4&ctz=America%2FChicago&showCalendars=0&showTitle=0&showPrint=0&showTz=0&showTabs=0&src=Zm9vdGhpbGxzc2FuY3R1YXJ5QGdtYWlsLmNvbQ&color=%23039BE5" style={{color:777}} width="400" height="300"></iframe>
         
 
         {/* <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FChicago&src=amFjcXVlbGluZW1zdGllaGxAZ21haWwuY29t&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%23039BE5&color=%230B8043" style={{color:777}} width="800" height="600"></iframe> */}
