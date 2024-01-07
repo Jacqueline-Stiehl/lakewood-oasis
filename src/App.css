@@ -348,6 +348,11 @@ h1 {
   color: #154360;
 }
 
+iframe {
+  margin-bottom: 50px;
+  justify-content: center;
+}
+
 .centerCalendar {
   text-align: center;
 }
